@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5EB5B8EF27EAFFEE0070488C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5B8EE27EAFFEE0070488C /* AppDelegate.swift */; };
-		5EB5B8F127EAFFEE0070488C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5B8F027EAFFEE0070488C /* SceneDelegate.swift */; };
-		5EB5B8F327EAFFEE0070488C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5B8F227EAFFEE0070488C /* ViewController.swift */; };
-		5EB5B8F627EAFFEE0070488C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB5B8F427EAFFEE0070488C /* Main.storyboard */; };
 		5EB5B8F827EAFFF00070488C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EB5B8F727EAFFF00070488C /* Assets.xcassets */; };
 		5EB5B8FB27EAFFF00070488C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB5B8F927EAFFF00070488C /* LaunchScreen.storyboard */; };
 		5EB5B90627EB07270070488C /* AloeStackView in Frameworks */ = {isa = PBXBuildFile; productRef = 5EB5B90527EB07270070488C /* AloeStackView */; };
@@ -23,9 +20,6 @@
 /* Begin PBXFileReference section */
 		5EB5B8EB27EAFFEE0070488C /* AloeStackViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AloeStackViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB5B8EE27EAFFEE0070488C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5EB5B8F027EAFFEE0070488C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5EB5B8F227EAFFEE0070488C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5EB5B8F527EAFFEE0070488C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EB5B8F727EAFFF00070488C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EB5B8FA27EAFFF00070488C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EB5B8FC27EAFFF00070488C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -68,13 +62,7 @@
 			children = (
 				5EB5B90C27EB08330070488C /* Controllers */,
 				5EB5B90727EB07640070488C /* View */,
-				5EB5B8EE27EAFFEE0070488C /* AppDelegate.swift */,
-				5EB5B8F027EAFFEE0070488C /* SceneDelegate.swift */,
-				5EB5B8F227EAFFEE0070488C /* ViewController.swift */,
-				5EB5B8F427EAFFEE0070488C /* Main.storyboard */,
-				5EB5B8F727EAFFF00070488C /* Assets.xcassets */,
-				5EB5B8F927EAFFF00070488C /* LaunchScreen.storyboard */,
-				5EB5B8FC27EAFFF00070488C /* Info.plist */,
+				5EB5B91127EB125D0070488C /* SupportingFiles */,
 			);
 			path = AloeStackViewDemo;
 			sourceTree = "<group>";
@@ -95,6 +83,17 @@
 				5EB5B90F27EB08CA0070488C /* PhotoViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5EB5B91127EB125D0070488C /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5EB5B8EE27EAFFEE0070488C /* AppDelegate.swift */,
+				5EB5B8F727EAFFF00070488C /* Assets.xcassets */,
+				5EB5B8F927EAFFF00070488C /* LaunchScreen.storyboard */,
+				5EB5B8FC27EAFFF00070488C /* Info.plist */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +162,6 @@
 			files = (
 				5EB5B8FB27EAFFF00070488C /* LaunchScreen.storyboard in Resources */,
 				5EB5B8F827EAFFF00070488C /* Assets.xcassets in Resources */,
-				5EB5B8F627EAFFEE0070488C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,12 +172,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EB5B8F327EAFFEE0070488C /* ViewController.swift in Sources */,
-				5EB5B90B27EB07A40070488C /* ExpandingRowView.swift in Sources */,
-				5EB5B8EF27EAFFEE0070488C /* AppDelegate.swift in Sources */,
 				5EB5B90E27EB08450070488C /* MainViewController.swift in Sources */,
 				5EB5B91027EB08CA0070488C /* PhotoViewController.swift in Sources */,
-				5EB5B8F127EAFFEE0070488C /* SceneDelegate.swift in Sources */,
+				5EB5B8EF27EAFFEE0070488C /* AppDelegate.swift in Sources */,
+				5EB5B90B27EB07A40070488C /* ExpandingRowView.swift in Sources */,
 				5EB5B90927EB076F0070488C /* SwitchRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,14 +183,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5EB5B8F427EAFFEE0070488C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5EB5B8F527EAFFEE0070488C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5EB5B8F927EAFFF00070488C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -329,10 +317,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LGVM9RAH4N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AloeStackViewDemo/Info.plist;
+				INFOPLIST_FILE = AloeStackViewDemo/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -357,10 +345,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LGVM9RAH4N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AloeStackViewDemo/Info.plist;
+				INFOPLIST_FILE = AloeStackViewDemo/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

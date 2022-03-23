@@ -134,7 +134,7 @@ public class MainViewController: AloeStackViewController {
     stackView.addRow(horizontalStackView)
     stackView.setInset(forRow: horizontalStackView, inset: .zero)
 
-    guard let image = UIImage(named: "lobster-dog") else { return }
+    guard let image = UIImage(named: "black-cat") else { return }
 
     for imageNumber in 1...10 {
       let imageView = UIImageView(image: image)
@@ -183,7 +183,7 @@ public class MainViewController: AloeStackViewController {
       bottom: stackView.rowInset.bottom,
       right: stackView.rowInset.right))
 
-    guard let image = UIImage(named: "lobster-dog") else { return }
+    guard let image = UIImage(named: "black-cat") else { return }
     let aspectRatio = image.size.height / image.size.width
 
     let imageView = UIImageView(image: image)

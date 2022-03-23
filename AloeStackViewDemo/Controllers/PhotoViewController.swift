@@ -32,7 +32,7 @@ public class PhotoViewController: AloeStackViewController {
   }
 
   private func setUpImageRow() {
-    guard let image = UIImage(named: "lobster-dog") else { return }
+    guard let image = UIImage(named: "black-cat") else { return }
     let aspectRatio = image.size.height / image.size.width
 
     let imageView = UIImageView(image: image)
