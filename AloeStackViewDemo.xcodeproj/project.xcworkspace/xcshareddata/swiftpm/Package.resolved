@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "aloestackview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/marlimox/AloeStackView",
+      "state" : {
+        "branch" : "master",
+        "revision" : "001e71afa4a74185d0811b76ca857ebebd387094"
+      }
+    }
+  ],
+  "version" : 2
+}

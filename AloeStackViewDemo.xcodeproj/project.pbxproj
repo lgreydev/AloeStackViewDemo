@@ -13,6 +13,7 @@
 		5EB5B8F627EAFFEE0070488C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB5B8F427EAFFEE0070488C /* Main.storyboard */; };
 		5EB5B8F827EAFFF00070488C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EB5B8F727EAFFF00070488C /* Assets.xcassets */; };
 		5EB5B8FB27EAFFF00070488C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB5B8F927EAFFF00070488C /* LaunchScreen.storyboard */; };
+		5EB5B90627EB07270070488C /* AloeStackView in Frameworks */ = {isa = PBXBuildFile; productRef = 5EB5B90527EB07270070488C /* AloeStackView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EB5B90627EB07270070488C /* AloeStackView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = AloeStackViewDemo;
+			packageProductDependencies = (
+				5EB5B90527EB07270070488C /* AloeStackView */,
+			);
 			productName = AloeStackViewDemo;
 			productReference = 5EB5B8EB27EAFFEE0070488C /* AloeStackViewDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 5EB5B8E227EAFFEE0070488C;
+			packageReferences = (
+				5EB5B90427EB07270070488C /* XCRemoteSwiftPackageReference "AloeStackView" */,
+			);
 			productRefGroup = 5EB5B8EC27EAFFEE0070488C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -358,6 +366,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5EB5B90427EB07270070488C /* XCRemoteSwiftPackageReference "AloeStackView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marlimox/AloeStackView";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5EB5B90527EB07270070488C /* AloeStackView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EB5B90427EB07270070488C /* XCRemoteSwiftPackageReference "AloeStackView" */;
+			productName = AloeStackView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5EB5B8E327EAFFEE0070488C /* Project object */;
 }
