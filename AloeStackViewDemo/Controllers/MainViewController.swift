@@ -20,7 +20,7 @@ public class MainViewController: AloeStackViewController {
 
   // MARK: Private
   private func setUpSelf() {
-    title = "AloeStackView Example"
+    title = "AloeStackView Demo"
   }
 
   private func setUpStackView() {
