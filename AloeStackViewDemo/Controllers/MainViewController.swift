@@ -198,5 +198,4 @@ public class MainViewController: AloeStackViewController {
       self.navigationController?.pushViewController(vc, animated: true)
     }
   }
-
 }
